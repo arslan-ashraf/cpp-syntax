@@ -56,7 +56,37 @@ int main(){
 	// when a character type exceeds size value in a loop, the result is infinite loop
 	for(char n = 0; n < 300; n++){} // this is an infinite loop, char is never more than 255
 
+	// creating a single character, single quotes only
+	char single_character = 'c';
 
+	// creating a string, must be created with double quotes
+	char str[] = "this is foo"
+
+	// creating an array of int type
+	int arr[] = {0,1,2,3,4,5};
+
+	// creating an array of fixed size
+	int arr[5] = {0, 1, 2, 3, 4};
+
+	// struct 
+	struct Node {
+		int key;
+		Node *left;
+		Node *right;
+		Node *parent;
+	};
+
+	// function for allocating a node
+	Node* newNode( int key ){
+		Node* n = new Node;
+		n->key = key;
+		n->left = nullptr;
+		n->right = nullptr;
+		n->parent = nullptr;
+		return n;
+	}
+
+	// pointer is created with an *, and it must be the same data type as the data its pointing to
 
 	return 0;
 }
