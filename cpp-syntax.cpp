@@ -68,6 +68,12 @@ int main(){
 	// creating an array of fixed size
 	int arr[5] = {0, 1, 2, 3, 4};
 
+	// pointer is created with an *, and it must be the same data type as the data its pointing to
+	int * pointer = &arr; 
+
+	// pointer is derefenced by * pointer to get the value
+	cout << "The pointer is derefenced, the value at this pointer is " << * pointer << endl;
+
 	// struct 
 	struct Node {
 		int key;
@@ -86,7 +92,12 @@ int main(){
 		return n;
 	}
 
-	// pointer is created with an *, and it must be the same data type as the data its pointing to
 
+	// setting up a class
+	class Tree {
+
+		// private variables and functions
+
+	}
 	return 0;
 }
