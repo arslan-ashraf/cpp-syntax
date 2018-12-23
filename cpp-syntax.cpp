@@ -74,6 +74,13 @@ int main(){
 	// pointer is derefenced by * pointer to get the value
 	cout << "The pointer is derefenced, the value at this pointer is " << * pointer << endl;
 
+	// floating arrithmetic with ints
+	int numerator = 5;
+
+	int denomicator = 15;
+
+	double fraction = (double)numerator/denomicator;
+
 	// struct 
 	struct Node {
 		int key;
@@ -97,6 +104,11 @@ int main(){
 	class Tree {
 
 		// private variables and functions
+
+
+		// public variables and functions
+		Node * root;
+
 
 	}
 	return 0;
