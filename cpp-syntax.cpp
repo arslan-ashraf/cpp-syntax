@@ -101,15 +101,22 @@ int main(){
 
 
 	// setting up a class
-	class Tree {
+	class Made_up_class {
 
 		// private variables and functions
 
 
 		// public variables and functions
-		Node * root;
+		public:
+			int n;
+			char character;
+			// this is a constructor
+			Made_up_class(){
+				n = 0;
+				character = ''
+			}
 
-
+			
 	}
 	return 0;
 }
