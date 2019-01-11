@@ -116,7 +116,9 @@ int main(){
 				character = ''
 			}
 
-			
+			Made_up_class(int number, char single_character){
+				
+			}
 	}
 	return 0;
 }
