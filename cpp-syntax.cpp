@@ -116,8 +116,10 @@ int main(){
 				character = ''
 			}
 
+			// this is a defined constructor object
 			Made_up_class(int number, char single_character){
-				
+				n = number;
+				character = single_character;
 			}
 	}
 	return 0;
