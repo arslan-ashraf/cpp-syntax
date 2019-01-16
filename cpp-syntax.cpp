@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <cmath>
+#include <vector>
 
 using namespace std;
 
@@ -122,5 +123,19 @@ int main(){
 				character = single_character;
 			}
 	}
+
+	// creating a vector out of an existing array
+	int existing_array[] = {5,3,6,7,2,1,0,50};
+	std::vector<int> make_vector_out_of_array(existing_array, 
+											  existing_array + in_int_size_of_existing_array);
+
+	// // sorting an array
+	// // full sort
+	// std::sort(my_vector.begin(), my_vector.end());
+	// // partial sort from beginning to somewhere in the middle
+	// std::sort(my_vector.begin(), my_vector.end() + number);
+	// // partial sort starting from the middle somewhere up to end
+	// std::sort(my_vector.begin() + number, my_vector.end());
+
 	return 0;
 }
