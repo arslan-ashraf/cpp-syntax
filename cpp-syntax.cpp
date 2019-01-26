@@ -3,7 +3,8 @@
 #include <cmath>
 #include <vector>
 
-using namespace std;
+using namespace std; // this allows std functions to be called without std::
+using namespace vector:
 
 #define variable 5 // this is a preprocessor, variable is now globally available and its value is 5
 
@@ -129,9 +130,10 @@ int main(){
 	std::vector<int> make_vector_out_of_array(existing_array, 
 											  existing_array + in_int_size_of_existing_array);
 
-	// // sorting an array
-	// // full sort
-	// std::sort(my_vector.begin(), my_vector.end());
+	// to not use std::sort and just use sort, type: using namespace std; at the top
+	// sorting an array
+	// full sort
+	std::sort(my_vector.begin(), my_vector.end());
 	// // partial sort from beginning to somewhere in the middle
 	// std::sort(my_vector.begin(), my_vector.end() + number);
 	// // partial sort starting from the middle somewhere up to end
