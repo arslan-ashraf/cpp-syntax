@@ -136,8 +136,8 @@ int main(){
 	std::sort(my_vector.begin(), my_vector.end());
 	// partial sort from beginning to somewhere in the middle
 	std::sort(my_vector.begin(), my_vector.end() + number);
-	// // partial sort starting from the middle somewhere up to end
-	// std::sort(my_vector.begin() + number, my_vector.end());
+	// partial sort starting from the middle somewhere up to end
+	std::sort(my_vector.begin() + number, my_vector.end());
 
 	return 0;
 }
