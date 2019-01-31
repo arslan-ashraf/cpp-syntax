@@ -112,7 +112,7 @@ int main(){
 		public:
 			int n;
 			char character;
-			// this is a constructor
+			// this is a constructor that doen't require objects to have required variables
 			Made_up_class(){
 				n = 0;
 				character = ''
