@@ -106,7 +106,7 @@ int main(){
 	class Made_up_class {
 
 		// private variables and functions
-
+		private:
 
 		// public variables and functions
 		public:
