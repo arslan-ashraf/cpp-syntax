@@ -55,6 +55,13 @@ int main(){
 	wchar_t n;// 4 bytes
 	cout << "sizeof int: " << sizeof(wchar_t) << " bytes" endl;
 
+	// for printf integer types
+	int => "%d"
+	long => "%ld"
+	long long => "%lld"
+	unsigned => "%u"
+	
+
 	// when a character type exceeds size value in a loop, the result is infinite loop
 	for(char n = 0; n < 300; n++){} // this is an infinite loop, char is never more than 255
 
