@@ -139,5 +139,10 @@ int main(){
 	// partial sort starting from the middle somewhere up to end
 	std::sort(my_vector.begin() + number, my_vector.end());
 
+	// convert string to number
+	// if string_pointer is not null, function will set set value of idx to position of
+	// first character
+	int string_to_integer = std::stoi(string, string_pointer_called_idx, specify_base_here)
+
 	return 0;
 }
