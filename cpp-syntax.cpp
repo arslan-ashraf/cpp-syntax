@@ -60,7 +60,11 @@ int main(){
 	long => "%ld"
 	long long => "%lld"
 	unsigned => "%u"
-	
+	unsigned long => "%lu"
+	unsigned long long => "%llu"
+	float => "%f"
+	double => "%f"
+	long double => "%Lf"
 
 	// when a character type exceeds size value in a loop, the result is infinite loop
 	for(char n = 0; n < 300; n++){} // this is an infinite loop, char is never more than 255
@@ -150,6 +154,13 @@ int main(){
 	// if string_pointer is not null, function will set set value of idx to position of
 	// first character
 	int string_to_integer = std::stoi(string, string_pointer_called_idx, specify_base_here)
+
+	// for loop with auto before beginning of the loop
+	for(auto i = variable_here; variable_here < something; variable_here increment/decrement){}
+
+	// pushing and popping from array vector 
+	// my_vector.push_back(*pointer_to_some_value)
+	// my_vector.pop_back()
 
 	return 0;
 }
