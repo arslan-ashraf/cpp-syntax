@@ -159,8 +159,8 @@ int main(){
 	for(auto i = variable_here; variable_here < something; variable_here increment/decrement){}
 
 	// pushing and popping from array vector 
-	// my_vector.push_back(*pointer_to_some_value)
-	// my_vector.pop_back()
+	my_vector.push_back(*pointer_to_some_value)
+	my_vector.pop_back()
 
 	return 0;
 }
