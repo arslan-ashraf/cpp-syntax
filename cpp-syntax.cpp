@@ -162,5 +162,8 @@ int main(){
 	my_vector.push_back(*pointer_to_some_value)
 	my_vector.pop_back()
 
+	// string length
+	str.length()
+
 	return 0;
 }
