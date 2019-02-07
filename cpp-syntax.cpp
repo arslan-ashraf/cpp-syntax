@@ -165,5 +165,11 @@ int main(){
 	// string length
 	str.length()
 
+	// unordered hashmap
+	std::unordered_map<std::string, int> hashmap_name;
+	hashmap_name["key"] = 1;
+
+	// // check if key is present
+	// if(hashmap_name.find("key") != hashmap_name.end())
 	return 0;
 }
